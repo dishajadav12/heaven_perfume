@@ -1,0 +1,36 @@
+
+.navbar{
+  margin-top: 1%;
+  margin-left: 5%;
+  position: fixed;
+  width: 80%;
+  
+}
+.nav-menu{
+  margin:0% 50% 0% 30%;
+}
+.nav-menu a{
+  text-decoration: none;
+  color: black;
+  padding:0% 10%;
+
+}
+.home-container{
+  height: 710px;
+  background-image: url("./components/Escape to a world of blissful aromas with our perfumes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shop-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 600px;
+}
+.home-branding{
+  position: absolute;
+ padding-top: 350px;
+ font-family: 'Montserrat', sans-serif;
+
+}
+
