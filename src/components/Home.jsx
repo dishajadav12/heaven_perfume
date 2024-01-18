@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <div className='home-container'>
         <div className="home-branding">
-            <p>ESCAPE TO A WORLD OF</p>
-            <p style={{fontSize:'5em'}}>BLISSFUL <br /> AROMAS</p>
-            <p> WITH OUR PERFUMES</p>
+            <div>ESCAPE TO A WORLD OF</div>
+            <div className='branding-2'>BLISSFUL <br /> AROMAS</div>
+            <div> WITH OUR PERFUMES</div>
            </div>
        <span className="shop-container">
-            <span>Shop Now <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
+            <span style={{fontSize: "1rem"}}>Shop Now &nbsp;  <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
             </span>
-       </span>
+       </span> 
     </div>
   )
 }

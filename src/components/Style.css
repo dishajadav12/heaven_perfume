@@ -1,0 +1,34 @@
+
+.summary-1{
+    padding: 2% 5% 0 0%;
+    /* text-align: center; */
+    background-image: url("Images/image1.jpg");
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.summary-slogan{
+    margin: 5% 0 0 10%;
+    font-size: 1.5rem;
+    font-family: 'Antic Didone', serif;
+}
+.summary-desc{
+    padding: 1% 0% 0 10% ;
+    font-size: 0.8rem;
+}
+.features{
+    text-align: center;
+    padding: 4%;
+}
+.feature-icon{
+    width: 60px;
+}
+.f1{
+    margin: 5% auto;
+}
+.summary-2{
+    padding: 2% 5% 0 0%;
+    /* text-align: center; */
+    background-image: url("Images/image3.jpg");
+    background-repeat: no-repeat;
+    height: 550px;
+}

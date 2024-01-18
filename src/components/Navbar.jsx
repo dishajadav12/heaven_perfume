@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faUser ,faBagShopping} from '@fortawesome/free-solid-svg-icons'
+import {faUser } from '@fortawesome/free-regular-svg-icons'
+import {faBagShopping} from '@fortawesome/free-solid-svg-icons'
 import '../App.css'
 
 const Navbar = () => {
@@ -23,9 +24,9 @@ const Navbar = () => {
                         <a href='/' className='nav-item nav-btn'>Contact</a>
 
                         </div>
-                        <div className="item">
-                            <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
-                            <FontAwesomeIcon icon={faBagShopping}></FontAwesomeIcon>
+                        <div>
+                            <FontAwesomeIcon  className="item" icon={faUser} ></FontAwesomeIcon>
+                            <FontAwesomeIcon  className="item" icon={faBagShopping}></FontAwesomeIcon>
 
                         </div>
                        
